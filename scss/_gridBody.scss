@@ -1,0 +1,47 @@
+/* .gridBody
+{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: repeat(6, 170px);
+    grid-template-areas: 
+    "header header"
+    "nuestroEnfoque__menuPrincipal nuestroEnfoque__menuPrincipal"
+    "subtitulo subtitulo"
+    "parrafoUno parrafoDos"
+    "parrafoTres parrafoTres"
+    "footer footer";
+    
+    .nuestroEnfoque__titulo
+    {
+        grid-area: header;
+        .nuestroEnfoque__menuPrincipal
+        {
+            grid-area: nav;
+            .subtitulo
+            {
+                grid-area: subtitulo;
+                .parrafoUno
+                {
+                    grid-area: parrafoUno;
+                    .parrafoDos
+                    {
+                        grid-area: parrafoDos;
+                        .parrafoTres
+                        {
+                            grid-area: parrafoTres;
+                            .pieDePagina
+                            {
+                                grid-area: footer;
+                            }   
+                        } 
+                    }
+                }
+            }
+        }
+    }
+} */
+
+
+
+
+

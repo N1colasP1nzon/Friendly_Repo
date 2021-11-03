@@ -1,0 +1,138 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+@import "variables";
+@import "header";
+@import "gridBody";
+@import "footer";
+
+@for $i from 1 to 4
+{
+    .parrafo-#{$i}
+    {
+        font-size: 10px * ($i);
+    }
+}
+@each $color in blue cyan indigo
+{
+    .#{$color}-background
+    {
+        background-color: $color;
+    }
+}
+$color:
+(
+    color1: red,
+    color2: blue,
+    color3: yellow,
+);
+@each $key, $value in $color 
+{
+    .#{$value}-background
+    {
+        background-color: $value;
+    }
+}
+.parrafo
+{
+    margin: 25px;
+    padding: 15px;
+} 
+
+.segundaSeccion
+{
+    padding: 15px;
+    .segundaSeccion__destacada
+    {
+        text-align: center;
+    }
+        .segundaSeccion__destacada--Principal
+        {
+            font-size: medium;
+        }
+}
+.parrafoProducto
+{
+    margin: 20px;
+    padding: 15px;
+    .parrafoProducto__Destacado--modificable
+    {
+        color:black;
+        font-style:normal;
+        text-align: justify;
+
+    }
+}
+.basesDelProducto
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 10px;
+    padding: 5px;
+    justify-content:space-around;
+    img
+    {
+        padding: 10px;
+        width: 200px;
+    }    
+}
+.basesDelProducto__margen
+{
+    border-style:none;
+}
+.basesDelProducto__margen--modificable
+{
+    font-style: normal;
+}
+.registro__contacto--modificable
+{
+    padding: 10px;
+}
+.contacto
+{
+    padding: 10px;
+    text-align: center;
+}
+.tabla
+{
+    padding: 10px;
+}
+.servicios
+{
+    padding: 10px;
+}
+.tituloPrincipal
+{
+    margin: 20px;
+    padding: 15px;
+}
+.producto
+{
+    margin: 20px;
+    
+}
+a
+{
+    text-decoration: none;
+}
+.titulos
+{
+    margin: 20px;
+    padding: 15px;
+}
+.modal-header
+{
+    background-image: linear-gradient(to left, #3c4d76 , white);
+}
+.login
+{
+    margin: 20px;
+    padding: 15px;
+}
+.container-fuid
+{
+    width: 95vw;
+}
