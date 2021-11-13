@@ -182,16 +182,22 @@
     text-align: justify; }
 
 .imagenEscalabilidad {
+  display: block;
+  margin: auto;
   height: 200px;
   width: 220px;
   border-radius: 50%; }
 
 .imagenEstadistica {
+  display: block;
+  margin: auto;
   height: 200px;
   width: 220px;
   border-radius: 50%; }
 
 .imagenRapidez {
+  display: block;
+  margin: auto;
   height: 200px;
   width: 220px;
   border-radius: 50%; }
