@@ -1,24 +1,30 @@
-.paginaUno__titulo
+.imagenMenuPrincipal
 {
-    color: $color-header;
-    text-align: center;
-    font-size: large;
-    font-size: 40px;
-    padding: 7px;
-    background-image: linear-gradient(to left, #3c4d76 , white);
+    height: 150px;
+    width: 1355px;
 }
-.paginaUno__menuPrincipal
-{
-    margin: 10px;
-    padding: 5px;
-    .boton
+.paginaUno{
+
+    /* background-color: black; */
+
+    .paginaUno__menuPrincipal
     {
-        color: white;
-        border-style: solid;
-        background-color: #3c4d76;
-        border-radius: 45px;
         
+        /* margenes del menu */
+        .boton
+        {
+            color: white;
+            border-style: solid;
+            background-color: #3c4d76;
+            border-radius: 45px;
+            }
     }
+}
+.navegador
+{
+    /* position: fixed; */
+    padding: 0px;
+    border-radius: 35px;
 }
 .paginaContacto__titulo
 {

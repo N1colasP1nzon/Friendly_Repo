@@ -2,22 +2,24 @@
   margin: 0;
   padding: 0; }
 
-.paginaUno__titulo {
-  color: #4b0082;
-  text-align: center;
-  font-size: large;
-  font-size: 40px;
-  padding: 7px;
-  background-image: linear-gradient(to left, #3c4d76, white); }
+.imagenMenuPrincipal {
+  height: 150px;
+  width: 1355px; }
 
-.paginaUno__menuPrincipal {
-  margin: 10px;
-  padding: 5px; }
-  .paginaUno__menuPrincipal .boton {
-    color: white;
-    border-style: solid;
-    background-color: #3c4d76;
-    border-radius: 45px; }
+.paginaUno {
+  /* background-color: black; */ }
+  .paginaUno .paginaUno__menuPrincipal {
+    /* margenes del menu */ }
+    .paginaUno .paginaUno__menuPrincipal .boton {
+      color: white;
+      border-style: solid;
+      background-color: #3c4d76;
+      border-radius: 45px; }
+
+.navegador {
+  /* position: fixed; */
+  padding: 0px;
+  border-radius: 35px; }
 
 .paginaContacto__titulo {
   color: #4b0082;
@@ -186,6 +188,9 @@
 
 .yellow-background {
   background-color: yellow; }
+
+.margenCarousel {
+  height: 10px; }
 
 .parrafo {
   margin: 25px;
