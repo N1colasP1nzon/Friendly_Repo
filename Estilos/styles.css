@@ -4,17 +4,15 @@
 
 .imagenMenuPrincipal {
   height: 150px;
-  width: 1300px; }
+  width: 1349px; }
 
-.paginaUno {
-  /* background-color: black; */ }
-  .paginaUno .paginaUno__menuPrincipal {
-    /* margenes del menu */ }
-    .paginaUno .paginaUno__menuPrincipal .boton {
-      color: white;
-      border-style: solid;
-      background-color: #3c4d76;
-      border-radius: 45px; }
+.paginaUno__menuPrincipal {
+  /* margenes del menu */ }
+  .paginaUno__menuPrincipal .boton {
+    color: white;
+    border-style: solid;
+    background-color: #3c4d76;
+    border-radius: 45px; }
 
 .navegador {
   padding: 0px;
@@ -161,33 +159,6 @@
   align-items: flex-start;
   justify-content: space-between; }
 
-.parrafo-1 {
-  font-size: 10px; }
-
-.parrafo-2 {
-  font-size: 20px; }
-
-.parrafo-3 {
-  font-size: 30px; }
-
-.blue-background {
-  background-color: blue; }
-
-.cyan-background {
-  background-color: cyan; }
-
-.indigo-background {
-  background-color: indigo; }
-
-.red-background {
-  background-color: red; }
-
-.blue-background {
-  background-color: blue; }
-
-.yellow-background {
-  background-color: yellow; }
-
 .margenCarousel {
   height: 10px; }
 
@@ -210,22 +181,20 @@
     font-style: normal;
     text-align: justify; }
 
-.basesDelProducto {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  margin: 10px;
-  padding: 5px;
-  justify-content: space-around; }
-  .basesDelProducto img {
-    padding: 10px;
-    width: 200px; }
+.imagenEscalabilidad {
+  height: 200px;
+  width: 220px;
+  border-radius: 50%; }
 
-.basesDelProducto__margen {
-  border-style: none; }
+.imagenEstadistica {
+  height: 200px;
+  width: 220px;
+  border-radius: 50%; }
 
-.basesDelProducto__margen--modificable {
-  font-style: normal; }
+.imagenRapidez {
+  height: 200px;
+  width: 220px;
+  border-radius: 50%; }
 
 .registro__contacto--modificable {
   padding: 10px; }

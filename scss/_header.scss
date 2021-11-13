@@ -1,23 +1,17 @@
 .imagenMenuPrincipal
 {
     height: 150px;
-    width: 1300px;
+    width: 1349px;
 }
-.paginaUno{
-
-    /* background-color: black; */
-
-    .paginaUno__menuPrincipal
+.paginaUno__menuPrincipal
+{
+    /* margenes del menu */
+    .boton
     {
-        
-        /* margenes del menu */
-        .boton
-        {
-            color: white;
-            border-style: solid;
-            background-color: #3c4d76;
-            border-radius: 45px;
-            }
+        color: white;
+        border-style: solid;
+        background-color: #3c4d76;
+        border-radius: 45px;
     }
 }
 .navegador
