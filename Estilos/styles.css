@@ -3,13 +3,11 @@
   padding: 0; }
 
 .imagenMenuPrincipal {
-  margin: 10px;
   height: 150px;
   width: 1335px; }
 
 .paginaUno__menuPrincipal {
-  /* margenes del menu */
-  margin: 10px; }
+  /* margenes del menu */ }
   .paginaUno__menuPrincipal .boton {
     color: white;
     border-style: solid;
