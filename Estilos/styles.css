@@ -3,13 +3,13 @@
   padding: 0; }
 
 .imagenMenuPrincipal {
-  background-color: black;
+  margin: 10px;
   height: 150px;
-  width: 1335px;
-  /* padding: 0px; */ }
+  width: 1335px; }
 
 .paginaUno__menuPrincipal {
-  /* margenes del menu */ }
+  /* margenes del menu */
+  margin: 10px; }
   .paginaUno__menuPrincipal .boton {
     color: white;
     border-style: solid;
@@ -217,9 +217,18 @@
 .servicios {
   padding: 10px; }
 
-.tituloPrincipal {
+.tituloSub {
   margin: 20px;
-  padding: 15px; }
+  padding: 15px;
+  text-align: center; }
+
+.centrar {
+  padding: 20px; }
+
+.tituloPrincipal {
+  /* margin: 20px; */
+  text-align: center;
+  padding: 10px; }
 
 .producto {
   margin: 20px; }
