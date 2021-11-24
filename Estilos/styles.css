@@ -147,8 +147,8 @@
   align-items: flex-start;
   justify-content: space-between; }
 
-.margenCarousel {
-  height: 10px; }
+.carousel {
+  height: 380px; }
 
 .parrafo {
   margin: 25px;
@@ -212,6 +212,9 @@
 
 .centrar {
   padding: 20px; }
+
+.altoSeccion {
+  height: 370px; }
 
 .tituloPrincipal {
   /* margin: 20px; */
