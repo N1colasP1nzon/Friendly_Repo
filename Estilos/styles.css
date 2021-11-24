@@ -121,7 +121,6 @@
     }
 } */
 .pieDePagina {
-  width: 100vw;
   background-color: #1c1c1c; }
   .pieDePagina .letraPieDePagina {
     color: #fcfcfc; }
@@ -205,11 +204,11 @@
 
 .altoSeccion {
   padding: 10px;
-  height: 400px; }
+  height: 200px; }
 
 .altoSeccionDos {
   padding: 10px;
-  height: 800px; }
+  height: 450px; }
 
 .tituloPrincipal {
   text-align: center; }
