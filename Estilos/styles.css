@@ -3,7 +3,7 @@
   padding: 0; }
 
 .imagenMenuPrincipal {
-  height: 150px;
+  /* height: 130px; */
   width: 100vw; }
 
 .paginaUno__menuPrincipal {
@@ -78,49 +78,8 @@
   margin: 10px;
   padding: 5px; }
 
-/* .gridBody
-{
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    grid-template-rows: repeat(6, 170px);
-    grid-template-areas: 
-    "header header"
-    "nuestroEnfoque__menuPrincipal nuestroEnfoque__menuPrincipal"
-    "subtitulo subtitulo"
-    "parrafoUno parrafoDos"
-    "parrafoTres parrafoTres"
-    "footer footer";
-    
-    .nuestroEnfoque__titulo
-    {
-        grid-area: header;
-        .nuestroEnfoque__menuPrincipal
-        {
-            grid-area: nav;
-            .subtitulo
-            {
-                grid-area: subtitulo;
-                .parrafoUno
-                {
-                    grid-area: parrafoUno;
-                    .parrafoDos
-                    {
-                        grid-area: parrafoDos;
-                        .parrafoTres
-                        {
-                            grid-area: parrafoTres;
-                            .pieDePagina
-                            {
-                                grid-area: footer;
-                            }   
-                        } 
-                    }
-                }
-            }
-        }
-    }
-} */
 .pieDePagina {
+  height: 125px;
   background-color: #1c1c1c; }
   .pieDePagina .letraPieDePagina {
     color: #fcfcfc; }
@@ -210,11 +169,6 @@
   padding: 10px;
   height: 550px; }
 
-/* .altoSeccionTres
-{
-    width: 95vw;
-    height: 700px;
-} */
 .tituloPrincipal {
   text-align: center; }
 
