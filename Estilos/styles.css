@@ -148,7 +148,7 @@
   justify-content: space-between; }
 
 .carousel {
-  height: 380px; }
+  height: 378px; }
 
 .parrafo {
   margin: 25px;
@@ -210,11 +210,8 @@
   padding: 15px;
   text-align: center; }
 
-.centrar {
-  padding: 20px; }
-
 .altoSeccion {
-  height: 370px; }
+  height: 500px; }
 
 .tituloPrincipal {
   /* margin: 20px; */
