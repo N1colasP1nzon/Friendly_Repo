@@ -89,6 +89,30 @@
   align-items: flex-start;
   justify-content: space-between; }
 
+@media screen and (min-width: 280px) and (max-width: 750px) {
+  .borrarcarrousel {
+    display: none; } }
+
+@media screen and (min-width: 150px) and (max-width: 812px) {
+  .video {
+    display: none;
+    visibility: hidden; } }
+
+@media screen and (min-width: 280px) and (max-width: 812px) {
+  .accordion-body {
+    text-align: center;
+    font-size: small; } }
+
+@media screen and (min-width: 280px) and (max-width: 812px) {
+  .accordion {
+    padding: 5px;
+    width: 200px; } }
+
+@media screen and (min-width: 280px) and (max-width: 812px) {
+  .historia__fieldset__imagen {
+    padding: 5px;
+    width: 200px; } }
+
 .parrafo {
   margin: 25px;
   padding: 15px; }
@@ -193,4 +217,4 @@
   height: 359px; }
 
 .espacionCardContacto1 {
-  height: 500px; }
+  height: 550px; }
