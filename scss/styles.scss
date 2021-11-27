@@ -28,8 +28,6 @@
 }
 .parrafoProducto
 {
-    margin: 20px;
-    padding: 15px;
     .parrafoProducto__Destacado--modificable
     {
         color:black;
@@ -40,7 +38,7 @@
 }
 .imagenEscalabilidad
 {
-    display: block;
+    display: flex;
     margin: auto;
     height: 200px;
     width: 220px;
@@ -48,7 +46,7 @@
 }
 .imagenEstadistica
 {
-    display: block;
+    display: flex;
     margin: auto;
     height: 200px;
     width: 220px;
@@ -56,7 +54,7 @@
 }
 .imagenRapidez
 {
-    display: block;
+    display: flex;
     margin: auto;
     height: 200px;
     width: 220px;
@@ -77,6 +75,7 @@
     height: 200px;
     width: 1300px;
     padding: 10px;
+    margin: 20px;
 }
 .servicios
 {
@@ -85,7 +84,7 @@
 .altoSeccion
 {
     padding: 10px;
-    height: 200px;
+    height: 430px;
 }
 .altoSeccionDos
 {
@@ -113,8 +112,39 @@
 {
     margin: 20px;
     padding: 15px;
+    width: 530px;
+    height: 380px;
+}
+.medidasImagen
+{
+    display: block;
+    margin: auto;
+    width: 300px;
+}
+.olvidoContraseña
+{
+    text-align: center;
 }
 .container-fuid
 {
     width: 95vw;
+}
+.enfoqueTexto
+{
+    margin: 15px;
+    padding: 10px;
+    height: 337px;
+}
+.queEsFriendlyTexto
+{
+    margin: 15px;
+    padding: 10px;
+}
+.espacionCardContacto
+{
+    height: 359px;
+}
+.espacionCardContacto1
+{
+    height: 500px;
 }

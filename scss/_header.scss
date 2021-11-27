@@ -1,11 +1,9 @@
 .imagenMenuPrincipal
 {
-    /* height: 130px; */
-    width: 100vw;
+    width: 1347px;
 }
 .paginaUno__menuPrincipal
 {
-    /* margenes del menu */
     .boton
     {
         color: white;
@@ -14,9 +12,12 @@
         border-radius: 45px;
     }
 }
+.anchoNav
+{
+    width: 100vw;
+}
 .navegador
 {
-    padding: 0px;
     border-radius: 35px;
 }
 .paginaContacto__titulo
