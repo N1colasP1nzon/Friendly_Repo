@@ -93,10 +93,17 @@
   .borrarcarrousel {
     display: none; } }
 
-@media screen and (min-width: 150px) and (max-width: 812px) {
-  .video {
-    display: none;
-    visibility: hidden; } }
+@media screen and (min-width: 280px) and (max-width: 750px) {
+  .imagenMenuPrincipal {
+    width: 100vw; } }
+
+@media screen and (min-width: 280px) and (max-width: 750px) {
+  .altoSeccion {
+    padding: 10px;
+    height: 0px; }
+  .altoSeccionDos {
+    padding: 10px;
+    height: 0px; } }
 
 @media screen and (min-width: 280px) and (max-width: 812px) {
   .accordion-body {
