@@ -17,11 +17,12 @@
     .altoSeccion
     {
         padding: 5px;
-        height: auto;
+        height: 300px;
     }
     .altoSeccionDos
     {
         display: none;
+        visibility: hidden;
     }
 }
 /* @media screen and (min-width: 280px) and (max-width: 812px)
