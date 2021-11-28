@@ -100,7 +100,7 @@
 @media screen and (min-width: 280px) and (max-width: 750px) {
   .altoSeccion {
     padding: 5px;
-    height: 450px; }
+    height: 0px; }
   .altoSeccionDos {
     display: none;
     visibility: hidden; }
