@@ -82,37 +82,6 @@
   .imagenMenuPrincipal {
     width: 100vw; } }
 
-/* @media screen and (min-width: 280px) and (max-width: 750px)
-{
-    .tabla
-    {
-        
-    }
-} */
-/* @media screen and (min-width: 280px) and (max-width: 812px)
-{
-    .accordion-body
-    {
-        text-align: center;
-        font-size: small;
-    }
-}
-@media screen and (min-width: 280px) and (max-width: 812px)
-{
-    .accordion
-    {
-        padding: 5px;
-        width: 200px;
-    }
-}
-@media screen and (min-width: 280px) and (max-width: 812px)
-{
-    .historia__fieldset__imagen
-    {
-        padding: 5px;
-        width: 200px;
-    }
-} */
 body {
   position: relative;
   padding-bottom: 3em;
