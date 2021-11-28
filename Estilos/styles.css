@@ -97,14 +97,19 @@
   .imagenMenuPrincipal {
     width: 100vw; } }
 
-@media screen and (min-width: 280px) and (max-width: 750px) {
-  .altoSeccion {
-    padding: 5px;
-    height: 800px; }
-  .altoSeccionDos {
-    padding: 5px;
-    height: 1200px; } }
-
+/* @media screen and (min-width: 280px) and (max-width: 750px)
+{
+    .altoSeccion
+    {
+        padding: 5px;
+        height: auto;
+    }
+    .altoSeccionDos
+    {
+        padding: 5px;
+        height: auto;
+    }
+} */
 @media screen and (min-width: 280px) and (max-width: 812px) {
   .accordion-body {
     text-align: center;
