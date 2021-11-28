@@ -183,10 +183,11 @@ footer {
   padding: 10px;
   height: 430px; }
 
-.altoSeccionDos {
-  padding: 10px;
-  height: 550px; }
-
+/* .altoSeccionDos
+{
+    padding: 10px;
+    height: 550px;
+} */
 .tituloPrincipal {
   text-align: center;
   padding: 10; }
