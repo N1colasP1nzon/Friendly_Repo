@@ -97,20 +97,27 @@
   .imagenMenuPrincipal {
     width: 100vw; } }
 
-@media screen and (min-width: 280px) and (max-width: 750px) {
-  .altoSeccion {
-    padding: 5px;
-    height: 0px; }
-  .altoSeccionDos {
-    display: none;
-    visibility: hidden; }
-  /*     .pieDePagina
+/* @media screen and (min-width: 280px) and (max-width: 750px)
+{
+    .altoSeccion
+    {
+        padding: 5px;
+        height: 0px;
+    }
+    .altoSeccionDos
+    {
+        display: none;
+        visibility: hidden;
+    }
+    .pieDePagina
     {
         height: auto;
-    } */
-  .enfoqueTexto {
-    height: 200px; } }
-
+    }
+    .enfoqueTexto
+    {
+        height: 200px;
+    }
+} */
 /* @media screen and (min-width: 280px) and (max-width: 812px)
 {
     .accordion-body
