@@ -82,6 +82,13 @@
   .imagenMenuPrincipal {
     width: 100vw; } }
 
+/* @media screen and (min-width: 280px) and (max-width: 750px)
+{
+    .tabla
+    {
+        
+    }
+} */
 /* @media screen and (min-width: 280px) and (max-width: 812px)
 {
     .accordion-body
@@ -106,6 +113,18 @@
         width: 200px;
     }
 } */
+body {
+  position: relative;
+  padding-bottom: 3em; }
+
+footer {
+  background-color: black;
+  color: blanchedalmond;
+  position: absolute;
+  padding: 1em;
+  bottom: 0;
+  width: 100%; }
+
 .parrafo {
   margin: 25px;
   padding: 15px; }
