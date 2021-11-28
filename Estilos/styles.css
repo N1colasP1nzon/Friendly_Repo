@@ -103,7 +103,9 @@
     height: 450px; }
   .altoSeccionDos {
     display: none;
-    visibility: hidden; } }
+    visibility: hidden; }
+  .pieDePagina {
+    height: auto; } }
 
 /* @media screen and (min-width: 280px) and (max-width: 812px)
 {
