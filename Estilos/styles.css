@@ -4,7 +4,7 @@
   padding: 0; }
 
 .imagenMenuPrincipal {
-  width: 1347px; }
+  width: 100%; }
 
 .paginaUno__menuPrincipal .boton {
   color: white;
@@ -94,6 +94,14 @@
   .paginaContacto__titulo {
     font-size: medium; } }
 
+@media screen and (min-width: 280px) and (max-width: 750px) {
+  .ofrecemos__titulo {
+    font-size: medium; } }
+
+@media screen and (min-width: 280px) and (max-width: 750px) {
+  .quienesSomos__titulo {
+    font-size: medium; } }
+
 body {
   position: relative;
   padding-bottom: 3em;
@@ -155,7 +163,9 @@ footer {
   margin: auto;
   padding: 10px;
   width: 600px;
-  text-align: center; }
+  text-align: center;
+  border: mediumblue;
+  background-color: dodgerblue; }
 
 .servicios {
   padding: 10px; }
