@@ -173,6 +173,10 @@ footer {
   border: mediumblue;
   background-color: dodgerblue; }
 
+.textoTabla {
+  margin: 10px;
+  padding: 10px; }
+
 .servicios {
   padding: 10px; }
 
@@ -201,9 +205,6 @@ footer {
   margin: 20px;
   padding: 15px; }
 
-.espacioCardContacto {
-  height: 359px; }
-
 .medidasImagen {
   display: flex;
   margin: auto;
@@ -224,5 +225,6 @@ footer {
   margin: 15px;
   padding: 10px; }
 
-.espacionCardContacto1 {
-  height: 550px; }
+.espacionCardContacto {
+  margin: 10px;
+  padding: 20px; }
