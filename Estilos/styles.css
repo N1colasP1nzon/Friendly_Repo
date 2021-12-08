@@ -84,7 +84,7 @@
 
 @media screen and (min-width: 280px) and (max-width: 750px) {
   .registro__titulo {
-    font-size: 100px; } }
+    font-size: medium; } }
 
 body {
   position: relative;
