@@ -106,6 +106,10 @@
   .textoquery {
     font-size: medium; } }
 
+@media screen and (min-width: 280px) and (max-width: 750px) {
+  .textoquery2 {
+    font-size: medium; } }
+
 body {
   position: relative;
   padding-bottom: 3em;
@@ -213,7 +217,8 @@ footer {
 
 .enfoqueTexto {
   margin: 15px;
-  padding: 10px; }
+  padding: 10px;
+  text-align: justify; }
 
 .queEsFriendlyTexto {
   margin: 15px;
