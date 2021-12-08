@@ -102,6 +102,10 @@
   .quienesSomos__titulo {
     font-size: medium; } }
 
+@media screen and (min-width: 280px) and (max-width: 750px) {
+  .textoquery {
+    font-size: medium; } }
+
 body {
   position: relative;
   padding-bottom: 3em;
@@ -209,8 +213,7 @@ footer {
 
 .enfoqueTexto {
   margin: 15px;
-  padding: 10px;
-  height: 345px; }
+  padding: 10px; }
 
 .queEsFriendlyTexto {
   margin: 15px;
