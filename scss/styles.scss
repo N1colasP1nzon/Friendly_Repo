@@ -22,35 +22,7 @@ footer
     bottom:0;
     width: 100%;
 
-}
-
-.parrafo
-{
-    margin: 25px;
-    padding: 15px;
 } 
-.segundaSeccion
-{
-    padding: 15px;
-    .segundaSeccion__destacada
-    {
-        text-align: center;
-    }
-        .segundaSeccion__destacada--Principal
-        {
-            font-size: medium;
-        }
-}
-.parrafoProducto
-{
-    .parrafoProducto__Destacado--modificable
-    {
-        color:black;
-        font-style:normal;
-        text-align: justify;
-
-    }
-}
 .imagenEscalabilidad
 {
     display: flex;
@@ -75,15 +47,6 @@ footer
     width: 220px;
     border-radius: 50%;
 }
-.registro__contacto--modificable
-{
-    padding: 10px;
-}
-.contacto
-{
-    padding: 10px;
-    text-align: center;
-}
 .tabla
 {
     margin: 10px;
@@ -91,15 +54,6 @@ footer
     border: mediumblue;
     background-color: dodgerblue;
     
-}
-.textoTabla
-{
-    margin: 10px;
-    padding: 10px;
-}
-.servicios
-{
-    padding: 10px;
 }
 .altoSeccion
 {
@@ -109,20 +63,14 @@ footer
 .tituloPrincipal
 {
     text-align: center;
-    padding: 10;
+    padding: 10px;
+    margin: 15px;
 }
 .texto
 {
+    margin: 10px;
     padding: 15px;
-}
-.tituloSub
-{
-    text-align: center;
-}
-.titulos
-{
-    margin: 20px;
-    padding: 15px;
+    text-align: justify;
 }
 .modal-header
 {
@@ -131,8 +79,7 @@ footer
 .login
 {
     margin: 20px;
-    padding: 15px;
-    
+    padding: 15px;   
 }
 .medidasImagen
 {
@@ -147,17 +94,6 @@ footer
 .container-fuid
 {
     width: 95vw;
-}
-.enfoqueTexto
-{
-    margin: 15px;
-    padding: 10px;
-    text-align: justify;
-}
-.queEsFriendlyTexto
-{
-    margin: 15px;
-    padding: 10px;
 }
 .espacionCardContacto
 {
