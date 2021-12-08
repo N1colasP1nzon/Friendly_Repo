@@ -173,6 +173,10 @@ footer {
   border: mediumblue;
   background-color: dodgerblue; }
 
+.textoTabla {
+  margin: 10px;
+  padding: 10px; }
+
 .servicios {
   padding: 10px; }
 
@@ -183,12 +187,11 @@ footer {
 .tituloPrincipal {
   text-align: center;
   padding: 10px;
-  margin: 15px; }
+  margin: 10px; }
 
 .texto {
   margin: 10px;
-  padding: 15px;
-  text-align: justify; }
+  padding: 15px; }
 
 .tituloSub {
   text-align: center; }
@@ -214,6 +217,11 @@ footer {
 
 .container-fuid {
   width: 95vw; }
+
+.enfoqueTexto {
+  margin: 15px;
+  padding: 10px;
+  text-align: justify; }
 
 .queEsFriendlyTexto {
   margin: 15px;
